@@ -10,7 +10,7 @@ from telebot import types
 # --- CONFIGURATION ---
 BOT_TOKEN = "8962945474:AAE5XCJkWXeFTpFupOPtfG6oXyhYZ1iQ6zc"
 ADMIN_ID = 7503462902
-DB_URI = "postgresql://neondb_owner:npg_wVS1nkipHl2J@ep-green-hall-ahi1p53g-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+DB_URI = "postgresql://neondb_owner:npg_wVS1nkipHl2J@ep-green-hall-ahi1p53g.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 app = Flask(__name__)
